@@ -1,6 +1,8 @@
 \documentclass[a4paper, 12pt]{book}
 
-\usepackage[utf8]{inputenc}
+%\usepackage[utf8]{inputenc}
+\usepackage{fontspec}
+\setmainfont[Ligatures=TeX, Numbers={OldStyle}]{Linux Libertine O}
 \usepackage{blindtext}
 \usepackage{graphicx}
 \usepackage{pgfplotstable}
@@ -8,9 +10,9 @@
 \usepackage{filecontents}
 \usepackage{longtable}
 \usepackage{float}
-\usepackage[T1]{fontenc}
+%\usepackage[T1]{fontenc}
 \usepackage{tocloft}
-\usepackage[backend=biber]{biblatex}
+\usepackage[backend=biber, style=verbose, citestyle=verbose]{biblatex}
 \addbibresource{references.bib}
 \usepackage[skip=5pt plus1pt, indent=0pt]{parskip}
 
